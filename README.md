@@ -31,8 +31,8 @@ This project is based on the [kaggle_filestructure](https://github.com/mikezawit
 - After using the template and cloning the repo, replace _{competition-slug}_ in the input directory with the slug from the competition you're working on
   - e.g. for [kaggle.com/competitions/`titanic`](https://www.kaggle.com/competitions/`titanic`), the slug would be "titanic"  
   - also upload the competition data to this folder  
-- Since the GitHub structure doesn't perfectly line up with Kaggle's, you will need to add "`..`" preceding filepaths in code from Kaggle notebooks
-  - e.g. `'/kaggle/input/titanic/train.csv'` from a Kaggle notebook becomes `'../kaggle/input/titanic/train.csv'` for a Jupyter notebook in the "working" directory.
+- Since the GitHub structure doesn't perfectly line up with Kaggle's, you will need to prepend filepath with "`../..`"
+  - e.g. `'/kaggle/input/titanic/`train.csv' from a Kaggle notebook becomes `'../../kaggle/input/titanic/`train.csv' for a Jupyter notebook in the "working" directory.
 
 ****
 
