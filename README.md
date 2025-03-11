@@ -11,12 +11,12 @@ This project is based on the [kaggle_filestructure](https://github.com/mikezawit
 └── kaggle
      ├── input                      <- data files for the competition 
      │    └── {competition-slug}
-     │          ├── train.csv       <- example data
-     │          └── test.csv        <- example data
+     │          ├── test.csv        <- example data
+     │          └── train.csv       <- example data
      ├── src                        <- source scripts
      ├── working                    <- the working directory
-     │       ├── notebook.ipynb     <- example Jupyter notebook
-     │       └── submission.csv     <- example submission
+     │    ├── notebook.ipynb        <- example Jupyter notebook
+     │    └── submission.csv        <- example submission
      ├── Original_README.md         <- from kaggle.com/competitions/predict-west-nile-virus
      └── README.md                  <- what you're reading right now
 ```
