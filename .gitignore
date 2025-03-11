@@ -1,11 +1,12 @@
 # This file includes Python and R gitignore templates as well as excluding the upload of the input directory as per most competition rules.
 
 ### MacOS ###
+
 .DS_Store
 
 ### Kaggle ###
 
-kaggle/input/**
+# kaggle/input/**
 
 ### Python ###
 
