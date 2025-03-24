@@ -1,5 +1,5 @@
 # This .gitignore has a Kaggle-specific section on top, 
-# followed by the content from GitHub templates for:
+# followed by the GitHub .gitignore templates for:
 # - Pyton
 # - R
 # - Julia
